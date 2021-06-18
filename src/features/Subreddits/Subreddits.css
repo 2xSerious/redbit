@@ -1,0 +1,30 @@
+li {
+    list-style-type: none;
+  }
+a {
+    text-decoration: none;
+}
+.subreddits-aside {
+    border: #919191 solid 1px;
+    border-radius: 20px;
+    
+}
+.subreddits-aside h2 {
+    text-align: center;
+}
+.subreddits-aside div {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    font-weight: 600;
+    
+}
+.avatar-image img{
+    border-radius: 50%;
+    width: 25px;
+}
+.subreddits-aside div:hover {
+    background-color: #f7f7f7;
+}

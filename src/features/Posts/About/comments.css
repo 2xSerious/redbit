@@ -1,0 +1,21 @@
+.comment-container {
+    margin: 30px 20px;
+    padding-bottom: 10px;
+    max-width: 480px;
+    box-shadow: 0 1px 1px 1px grey;
+    border-radius: 20px;
+
+}
+.comment-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 0;
+    padding-top: 10px;
+}
+
+.comment-body {
+    text-align: center;
+    margin: 10px 10px 0;
+    padding: 5px ;
+}

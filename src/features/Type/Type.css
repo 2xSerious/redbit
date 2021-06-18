@@ -1,0 +1,19 @@
+button {
+    border: none;
+    background: none;
+    padding: 5px 10px;
+   
+}
+.icons span {
+    font-size: 11pt;
+    padding: 0 5px;
+}
+.react-icons { 
+    vertical-align: middle;
+}
+
+button:hover {
+    border-radius: 20px;
+    background-color: purple;
+    color: white;
+}
