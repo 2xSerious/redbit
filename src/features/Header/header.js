@@ -1,23 +1,19 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Search from '../SearchBar/Search';
-
-
-
+import React from "react";
+import Search from "../SearchBar/Search";
 
 export const Header = () => {
-
-
-
-    return (
-        <header >
-            {/* <Link to='/'> */}
-            <div className="header-title">
-                <h1>Red<span>bit</span></h1>
-            {/* </Link> */}
-              <Search />
-            </div>
-            
-        </header>
-    )
-}
+  return (
+    <header>
+      {/* <Link to='/'> */}
+      <div className="header-title">
+        <div onClick={() => (window.location.href = "/")}>
+          <h1>
+            Red<span>bit</span>
+          </h1>
+        </div>
+        {/* </Link> */}
+        <Search />
+      </div>
+    </header>
+  );
+};

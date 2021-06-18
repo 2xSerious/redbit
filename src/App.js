@@ -12,7 +12,7 @@ import Subredditlink from './features/Subreddits/Subredditlink';
 import SearchResults from "./features/SearchBar/SearchResults";
 import PostsType from "./features/Posts/PostType";
 import About from "./features/Posts/About/About";
-
+import ScrollToTop from "./app/utils/scrollTop";
 
 function App() {
   return (
@@ -38,6 +38,7 @@ function App() {
           <Subreddits />
           </aside>
       </div>
+      <ScrollToTop />
     </Router>
   );
 }

@@ -44,6 +44,7 @@ header {
 
 .header-title h1 {
   color: rgb(255, 89, 0);
+  cursor: pointer;
 }
 
 .header-title span {

@@ -26,5 +26,5 @@ a {
     width: 25px;
 }
 .subreddits-aside div:hover {
-    background-color: #f7f7f7;
+    text-decoration: underline;
 }

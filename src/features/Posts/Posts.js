@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { selectPosts, selectIsLoading } from './postsSlice';
 import PostContainer from './postContainer';
 import LoaderPost from '../Loader';
-
+import "./Post.css";
 
 
 

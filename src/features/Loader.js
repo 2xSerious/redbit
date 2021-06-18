@@ -11,7 +11,7 @@ const LoaderPost = () => {
 
     return (
         (isLoading || isLoadingAbout) && 
-        <Loader type="BallTriangle" color="#00BFFF" height={80} width={80} />
+        <div className="loader" ><Loader type="Oval" color="#ff5900" height={80} width={80} /> </div>
     )
 };
 

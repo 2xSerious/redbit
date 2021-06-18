@@ -1,8 +1,11 @@
 import React from 'react';
+
 import timeConvert from '../../../app/utils/timeConvert';
 import './comments.css';
 
+
 const Comments = ({ comment }) => {
+
 
     return (
         <div className='comment-container'>
