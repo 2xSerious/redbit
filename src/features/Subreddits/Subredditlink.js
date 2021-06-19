@@ -12,7 +12,7 @@ const Subredditlink = ({match}) => {
 
     useEffect(() => {
         dispatch(loadPosts(prefixCurrent));
-    }, [dispatch, prefixCurrent);
+    }, [dispatch, prefixCurrent]);
 
     return ( 
         <Posts />
