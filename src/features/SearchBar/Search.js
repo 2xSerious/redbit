@@ -6,7 +6,7 @@ import { GrFormSearch } from "react-icons/gr";
 import {
   selectSearchTerm,
   setSearchTerm,
-  clearSearchTerm,
+  
 } from "../SearchBar/searchSlice";
 
 import './search.css';

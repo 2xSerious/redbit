@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from 'react-redux';
+import {  useSelector } from 'react-redux';
 import { selectIsLoadingAbout } from './Posts/About/aboutSlice';
 import { selectIsLoading } from './Posts/postsSlice';
 import Loader from 'react-loader-spinner';

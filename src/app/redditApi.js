@@ -1,5 +1,4 @@
-import React from 'react';
-import { subredditsSlice } from '../features/Subreddits/subredditsSlice';
+ 
 
 const url = 'https://www.reddit.com';
 

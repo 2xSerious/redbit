@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from 'react-router-dom';
 import { loadAboutPost, selectComments, selectPostAbout, selectIsLoadingAbout } from "./aboutSlice";
-import timeConvert  from "../../../app/utils/timeConvert";
+// import timeConvert  from "../../../app/utils/timeConvert";
 
 import { ImUndo2 } from "react-icons/im";
 import {IconContext} from "react-icons";
