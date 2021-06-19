@@ -21,7 +21,7 @@ function About ({match}){
 
   useEffect(() => {
       dispatch(loadAboutPost({subreddit: subreddit, id: id}));
-  }, [dispatch]);
+  }, [dispatch, subreddit, id]);
   
  console.log(comments)
  console.log(post)
