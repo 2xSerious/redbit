@@ -28,3 +28,10 @@ a {
 .subreddits-aside div:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+    .subreddits-aside {
+        display: none;
+    }
+    
+}
